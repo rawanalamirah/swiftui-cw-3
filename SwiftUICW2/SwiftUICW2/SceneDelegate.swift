@@ -20,7 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create the SwiftUI view that provides the window contents.
         let contentView = NavigationView(content: {
             VStack{
-                NavigationLink("Exercise 1",destination: Exercise1())
                 NavigationLink("Exercise 2",destination: Exercise2())
                 
             }
